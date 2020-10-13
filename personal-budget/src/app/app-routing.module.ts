@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'p404',
     component: P404Component
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 
